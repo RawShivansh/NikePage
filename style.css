@@ -1,0 +1,182 @@
+.nav{
+    display: flex;
+    width: 100%;
+    margin-top: 3%;
+}
+.swoosh{
+    margin-top: -1%;
+    margin-left: 2%;
+    width: 10%;
+}
+.menu{
+    display: flex;
+    width: 80%;
+    gap: 5%;
+    justify-content: center;
+}
+.menu>h3{
+    font-size: 25px;
+}
+.swoosh>img{
+    width: 80px;
+}
+.product{
+    width: 80%;
+    display: flex;
+    margin-left: 10%;
+}
+.shoe-detail{
+    position: relative;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin-left: 0%;
+}
+.shoe-detail>h1{
+    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+    font-weight:bold;
+}
+
+.shoe{
+    margin-top: -10%;
+    margin-left: -10%;
+    display: flex;
+    justify-content: center;
+    width: 70%;  
+}
+.shoe>img{
+    width: 110%;
+    transform: rotate(-30deg); 
+    
+}
+.buy-button{
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    color: white;
+    padding: 10px 10px;
+    font-size: 20px;
+    width: 30%;
+    background-color: black;
+    border: 0px black;
+    border-radius: 10px;
+}
+.color{
+    position: relative;
+    margin-left: 60%;
+    margin-top:-15%;
+    display: flex;
+    gap: 5%;
+}
+#red{
+    width: 50px;
+    height: 50px;
+    border-color:#683038;
+    background-color:#683038;
+    border-radius: 50px;
+}
+#black{
+    width: 50px;
+    height: 50px;
+    border-color: black;
+    background-color:black;
+    border-radius: 50px;
+}
+#blue{
+    width: 50px;
+    height: 50px;
+    border-color: #82c6e4;
+    background-color:#82c6e4;
+    border-radius: 50px;
+}
+#grey{
+    width: 50px;
+    height: 50px;
+    border-color: #aaacb0;
+    background-color:#aaacb0;
+    border-radius: 50px;
+}
+#orange{
+    width: 50px;
+    height: 50px;
+    border-color: #d47133;
+    background-color:#d47133;
+    border-radius: 50px;
+}
+.icon{
+    position: relative;
+    top: -45%;
+    text-decoration: none;
+    font-size: 30px;
+}
+@media (max-width: 480px){
+    .nav{
+        width: 100%;
+        display: block;
+    }
+    .swoosh{
+        margin-top: 2%;
+        margin-left: 40%;
+        width: 20%;
+    }
+    .menu{
+        width: 100%;
+        display: flex;
+        justify-content:center;
+        margin-top: -5%;
+    }
+    .menu>h3{
+        margin-top: 10%;
+        font-size: 12px;
+    }
+    .product{
+        margin-top: -10%;
+        width: 100%;
+        display: block;
+        margin-left: 0%;
+    }
+    .shoe-detail{
+        width: 80%;
+        text-align: center;
+        margin-top: 20%;
+    }
+    .buy-button{
+        width: 40%;
+        margin-left: 30%;
+    }
+    .shoe{
+        margin-top:-10%;
+        margin-left:0%;
+       display:block;
+       margin-left: 0%;
+       width: 100%;
+    }
+    .shoe>img{
+        width: 80%;
+        transform: rotate(30);
+        position: relative;
+        left:5%;
+    }
+    .color{
+        width: 80%;
+        position: relative;
+        margin-left: 10%;
+        margin-top:0%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .container{
+        margin-top: 20%;
+    }
+    .icon{
+        position: relative;
+        top: -180%;
+        right:180%;
+        text-decoration: none;
+        font-size: 20px;
+    }
+   
+   
+}
